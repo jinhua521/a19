@@ -66,6 +66,29 @@ int main(){
 
        }
        if( code == 4){
+          char x;
+            int i=0;
+            char neirong[1024];
+            printf("qingshuruyiduanweizi:\n");
+            scanf("%s",neirong);
+            for(; neirong[i]='\0';i++){
+                char a=neirong[i];
+                int j=0;
+                int flag=0;
+                for(;j<index;j++){
+                    if(a == arr[j]){
+                        flag=1;
+                    }
+                }
+                if(flag !=0){
+                    neirong [i] ='*';
+                }
+            }
+           printf("%s\n",neirong);
+            printf("tihuangchenggong\n");
+            scanf("%c",&x);
+            scanf("%c",&x);
+        
 
        }
        if( code == 5){
